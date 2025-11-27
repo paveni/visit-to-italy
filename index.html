@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src = "js/gallery.js"></script>
+</head>
+<body onload="addTab()">
+	
+	<div id = "image">
+		<p id = "altText">Hover over an image below to display here.</p>
+	</div>
+	
+	<img class = "preview" alt = "Inside the Pantheon in central Rome" src = "images/pantheon.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="focusOn(this)" onblur="focusOff()">
+	
+	<img class = "preview" alt = "The remains of the Roman Forum" src = "images/forumRuins.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="focusOn(this)" onblur="focusOff()">
+	
+	<img class = "preview" alt = "Inside the Colosseum" src = "images/colosseum.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="focusOn(this)" onblur="focusOff()">
+
+	<img class = "preview" alt = "New St. Peter's Basilica, Vatican City" src = "images/stPetersBasilica.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="focusOn(this)" onblur="focusOff()">
+	
+	<img class = "preview" alt = "The Carrara marble quarry" src = "images/carraraMarble.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="focusOn(this)" onblur="focusOff()">
+	
+	<img class = "preview" alt = "The Leaning Tower of Pisa" src = "images/pisaTower.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="focusOn(this)" onblur="focusOff()">
+
+</body>
+</html>
